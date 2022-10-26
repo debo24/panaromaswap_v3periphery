@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0 <0.8.0;
 
-import 'panaromaswap_v3core/contracts/libraries/FullMath.sol';
-import 'panaromaswap_v3core/contracts/libraries/TickMath.sol';
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
+import '../libraries/FullMath.sol';
+import '../libraries/TickMath.sol';
+import '../interfaces/IPanaromaswapV3Pool.sol';
 
 /// @title Oracle library
 /// @notice Provides functions to integrate with V3 pool oracle

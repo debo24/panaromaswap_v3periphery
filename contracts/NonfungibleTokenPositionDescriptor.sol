@@ -2,7 +2,7 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
+import './interfaces/IPanaromaswapV3Pool.sol';
 import 'panaromaswap_lib/contracts/libraries/SafeERC20Namer.sol';
 
 import './libraries/ChainId.sol';

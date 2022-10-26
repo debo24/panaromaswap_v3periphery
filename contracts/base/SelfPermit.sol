@@ -8,7 +8,7 @@ import '../interfaces/ISelfPermit.sol';
 import '../interfaces/external/IERC20PermitAllowed.sol';
 
 /// @title Self Permit
-/// @notice Functionality to call permit on any EIP-2612-compliant token for use in the route
+/// @notice Funct ionality to call permit on any EIP-2612-compliant token for use in the route
 /// @dev These functions are expected to be embedded in multicalls to allow EOAs to approve a contract and call a function
 /// that requires an approval in a single transaction.
 abstract contract SelfPermit is ISelfPermit {

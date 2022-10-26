@@ -2,8 +2,8 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import 'panaromaswap_v3core/contracts/interfaces/callback/IPanaromaswapV3FlashCallback.sol';
-import 'panaromaswap_v3core/contracts/libraries/LowGasSafeMath.sol';
+import '../interfaces/callback/IPanaromaswapV3FlashCallback.sol';
+import '../libraries/LowGasSafeMath.sol';
 
 import '../base/PeripheryPayments.sol';
 import '../base/PeripheryImmutableState.sol';

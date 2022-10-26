@@ -2,9 +2,9 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
-import 'panaromaswap_v3core/contracts/libraries/FixedPoint128.sol';
-import 'panaromaswap_v3core/contracts/libraries/FullMath.sol';
+import './interfaces/IPanaromaswapV3Pool.sol';
+import './libraries/FixedPoint128.sol';
+import './libraries/FullMath.sol';
 
 import './interfaces/INonfungiblePositionManager.sol';
 import './interfaces/INonfungibleTokenPositionDescriptor.sol';

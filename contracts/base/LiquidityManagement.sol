@@ -2,9 +2,9 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Factory.sol';
-import 'panaromaswap_v3core/contracts/interfaces/callback/IPanaromaswapV3MintCallback.sol';
-import 'panaromaswap_v3core/contracts/libraries/TickMath.sol';
+import '../interfaces/IPanaromaswapV3Factory.sol';
+import '../interfaces/callback/IPanaromaswapV3MintCallback.sol';
+import '../libraries/TickMath.sol';
 
 import '../libraries/PoolAddress.sol';
 import '../libraries/CallbackValidation.sol';

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
+import '../interfaces/IPanaromaswapV3Pool.sol';
 
 pragma solidity >=0.6.0;
 

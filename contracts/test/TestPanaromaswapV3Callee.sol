@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity =0.7.6;
 
-import 'panaromaswap_v3core/contracts/interfaces/callback/IPanaromaswapV3SwapCallback.sol';
-import 'panaromaswap_v3core/contracts/libraries/SafeCast.sol';
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
+import '../interfaces/callback/IPanaromaswapV3SwapCallback.sol';
+import '../libraries/SafeCast.sol';
+import '../interfaces/IPanaromaswapV3Pool.sol';
 import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 
 contract TestPanaromaswapV3Callee is IPanaromaswapV3SwapCallback {

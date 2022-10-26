@@ -2,7 +2,7 @@
 pragma solidity >=0.7.5;
 pragma abicoder v2;
 
-import 'panaromaswap_v3core/contracts/interfaces/callback/IPanaromaswapV3SwapCallback.sol';
+import './callback/IPanaromaswapV3SwapCallback.sol';
 
 /// @title Router token swapping functionality
 /// @notice Functions for swapping tokens via Panaromaswap V3

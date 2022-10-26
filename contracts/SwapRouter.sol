@@ -2,9 +2,9 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import 'panaromaswap_v3core/contracts/libraries/SafeCast.sol';
-import 'panaromaswap_v3core/contracts/libraries/TickMath.sol';
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
+import './libraries/SafeCast.sol';
+import './libraries/TickMath.sol';
+import './interfaces/IPanaromaswapV3Pool.sol';
 
 import './interfaces/ISwapRouter.sol';
 import './base/PeripheryImmutableState.sol';

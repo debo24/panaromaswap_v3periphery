@@ -2,10 +2,10 @@
 pragma solidity >=0.7.0;
 pragma abicoder v2;
 
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
-import 'panaromaswap_v3core/contracts/libraries/TickMath.sol';
-import 'panaromaswap_v3core/contracts/libraries/BitMath.sol';
-import 'panaromaswap_v3core/contracts/libraries/FullMath.sol';
+import '../interfaces/IPanaromaswapV3Pool.sol';
+import './TickMath.sol';
+import './BitMath.sol';
+import './FullMath.sol';
 import '@openzeppelin/contracts/utils/Strings.sol';
 import '@openzeppelin/contracts/math/SafeMath.sol';
 import '@openzeppelin/contracts/math/SignedSafeMath.sol';

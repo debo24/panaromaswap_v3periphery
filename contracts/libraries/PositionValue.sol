@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.6.8 <0.8.0;
 
-import 'panaromaswap_v3core/contracts/interfaces/IPanaromaswapV3Pool.sol';
-import 'panaromaswap_v3core/contracts/libraries/FixedPoint128.sol';
-import 'panaromaswap_v3core/contracts/libraries/TickMath.sol';
-import 'panaromaswap_v3core/contracts/libraries/Tick.sol';
+import '../interfaces/IPanaromaswapV3Pool.sol';
+import './FixedPoint128.sol';
+import './TickMath.sol';
+import './Tick.sol';
 import '../interfaces/INonfungiblePositionManager.sol';
 import './LiquidityAmounts.sol';
 import './PoolAddress.sol';
